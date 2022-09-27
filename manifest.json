@@ -1,0 +1,26 @@
+{
+	"name": "Edookit Dark Theme",
+	"description": "Edookit Dark Theme for Edookit Student",
+	"version": "0.1",
+	"manifest_version": 3,
+	"permissions": ["tabs"],
+	"content_scripts": [
+		{
+		  "matches": ["https://*.edookit.net/*"],
+		  "js": ["script.js"],
+		  "run_at" : "document_idle"
+		},
+		{
+			"matches": ["https://*.edookit.net/*"],
+			"css": ["base.css", "img-overrides/overrides.css"],
+			"run_at": "document_start"
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [ "edookitdarktheme.css", "/img-overrides/overrides.css", "test.css" ],
+			"matches": [ "https://*.edookit.net/*" ],
+			"use_dynamic_url": true
+		}
+	]
+}

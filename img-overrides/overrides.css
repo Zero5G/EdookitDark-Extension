@@ -1,0 +1,298 @@
+.system-logo {
+	height: 0 !important;
+	width: 0 !important;
+	/* these numbers match the new image's dimensions */
+	padding-left: 100px !important;
+	padding-top: 30px !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/edookitlogo.png") !important;
+    background-repeat: no-repeat !important;
+}
+.avatar.desktop-soft {
+    color: #525252 !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+.avatar.desktop-soft:hover {
+    color: white !important;
+}
+#scroll-to-top {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 60px;
+    padding-top: 60px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/dropdown.svg") !important;
+    background-repeat: no-repeat !important;
+}
+/*New message icon(s)...*/
+#header.right.new-message {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 33px;
+    padding-top: 33px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message1.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+#header.right.new-message:hover {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 33px;
+    padding-top: 33px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message2.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+.new-message.desktop {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 33px;
+    padding-top: 33px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message1.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+.new-message.desktop:hover {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 33px;
+    padding-top: 33px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message2.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--secondary-bg-color) !important;
+}
+#header.right.new-message.mobile {
+    width: 0;
+    height: 0;
+    padding-left: 24px;
+    padding-top: 24px;  
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/icons/message.png") !important;
+    background-repeat: no-repeat !important;
+}
+#header.right.new-message.mobile:hover {
+    width: 0;
+    height: 0;
+    padding-left: 24px;
+    padding-top: 24px;  
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/icons/message-hover.png") !important;
+    background-repeat: no-repeat !important;
+}
+/* Menu Icons */
+#menu-scroll-container .main-menu-container > ul > li.activity > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/activity.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.evaluation > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/assessment.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.attendance > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/attendance.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.consents > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/consent.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.discussions > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/discussions.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.exams > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/exams.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.overview > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/home.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.assignments > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/homework.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.courses > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/lessons.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.ads > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/link.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.materials > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/materials.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.updates > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/messages.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.payments > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/payments.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.portfolios > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/portfolio.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.lesson-plans > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/program.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.settings > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/settings.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.achievements > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/star-stroke.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+#menu-scroll-container .main-menu-container > ul > li.timetable-menu-item > a {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/timetable.svg") !important;
+    background-repeat: no-repeat;
+    background-position: 46px center;
+    background-size: 16px;
+}
+/*Inbox Icons*/
+.icon.assignment {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 32px;
+    padding-top: 32px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+.icon.message {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 32px;
+    padding-top: 32px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+.icon.evaluation {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 32px;
+    padding-top: 32px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assessment.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+.icon.exam {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 32px;
+    padding-top: 32px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/exam.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+.icon.event {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 32px;
+    padding-top: 32px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/event.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+#inbox-grid .icon.assignment {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") no-repeat center center !important;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+#inbox-grid .icon.message {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") no-repeat center center !important;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+#inbox-grid .icon.evaluation {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assessment.svg") no-repeat center center !important;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+#inbox-grid .icon.exam {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/exam.svg") no-repeat center center !important;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+#inbox-grid .icon.event {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/event.svg") no-repeat center center !important;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+/*Year selector*/
+/*g.expand[fill="#DDD"] path {
+    display: none !important;
+}
+/*g.expand[fill="#DDD"]path{
+    display: none !important;
+}*/
+/*g.expand[fill="none"] {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 11px;
+    padding-top: 18px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/paths/year-selector-2.svg") !important;
+    background-repeat: no-repeat !important;
+}
+g.expand[fill="none"]:hover {
+    height: 0 !important;
+    width: 0 !important;
+    padding-left: 11px;
+    padding-top: 18px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/paths/year-selector-1.svg") !important;
+    background-repeat: no-repeat !important;
+    background-color: var(--tertiary-bg-color) !important;
+}
+###############################################
+USE IN THE UPDATES (SCHRÁNKA) PAGE
+###############################################
+.item .icon.assignment {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") no-repeat center center !important;
+    /*width: 32px !important;
+    height: 32px !important;*/
+    /*margin-top: 6px;
+    margin-right: 8px;
+}
+.item .icon.message {
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") no-repeat center center !important;
+    /*width: 32px !important;
+    height: 32px !important;*/
+    /*margin-top: 6px;
+    margin-right: 8px;
+}

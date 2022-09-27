@@ -1,0 +1,90 @@
+:root {
+    --primary-bg-color: #181818;
+    --secondary-bg-color: #202020;
+    --primary-text-color: #cccccc;
+    --secondary-text-color: #ffffff;
+    --time-table-classes-bg-color: #424242;
+    --tertiary-bg-color: #111111;
+    --primary-highlight-color: #1a1a1a;
+    --secondary-highlight-color:#1f8bc9;
+}
+/*###################################
+Loading*/
+.loading-notification {
+    color: var(--secondary-text-color);
+    background: var(--tertiary-bg-color) url("https://raw.githubusercontent.com/Zero5G/EDTExtensionChrome/main/loading.gif") no-repeat 15px 15px !important;
+    /*box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;*/
+    /*border-radius: 6px;*/
+}
+/*###################################
+Main Page*/
+/*New post - BG*/
+.new .widget .box {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*New post - Border*/
+.new .widget .box {
+    border-color: transparent !important;
+}
+/*Evaluation - Border*/
+.new .evaluation-widget-container .evaluations {
+    border-color: transparent !important;
+}
+/*Achievements - BG*/
+.new .achievements-widget-container .achievements {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*Achievements - Border*/
+.new .achievements-widget-container .achievements {
+    border-color: transparent !important;
+}
+/*###################################
+Background (replaced color: f8fafa)*/
+body {
+    background-color: var(--primary-bg-color) !important;
+}
+.new {
+    background-color: var(--primary-bg-color) !important;
+}
+.new .evaluation-widget-container .evaluations {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*###################################
+Background (replaced color: ffffff)*/
+#menu-scroll-container {
+    background-color: var(--secondary-bg-color) !important;
+  }
+#menu-scroll-container .year-switcher-container #term-selector {
+    background-color: var(--secondary-bg-color) !important;
+}
+#main-menu {
+    background-color: var(--secondary-bg-color) !important;
+}
+#main-menu-background {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*###################################
+Background (replaced color: f3f3f3)*/
+#prints-timetable {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*###################################
+Inbox*/
+/*Background*/
+.new .grid-container .item {
+    background-color: var(--secondary-bg-color) !important;
+}
+/*Border*/
+.new .grid-container .item {
+    border-color: transparent !important;
+}
+/*###################################
+Evaluations*/
+/*Background*/
+.old .cssHack-box .table_row {
+    background-color: var(--secondary-bg-color) !important; 
+}
