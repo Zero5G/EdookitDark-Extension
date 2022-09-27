@@ -4,7 +4,7 @@
 	/* these numbers match the new image's dimensions */
 	padding-left: 100px !important;
 	padding-top: 30px !important;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/edookitlogo.png") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/edookitlogo.png") !important;
     background-repeat: no-repeat !important;
 }
 .avatar.desktop-soft {
@@ -19,7 +19,7 @@
     width: 0 !important;
     padding-left: 60px;
     padding-top: 60px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/dropdown.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/dropdown.svg") !important;
     background-repeat: no-repeat !important;
 }
 /*New message icon(s)...*/
@@ -28,7 +28,7 @@
     width: 0 !important;
     padding-left: 33px;
     padding-top: 33px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message1.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/message1.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--secondary-bg-color) !important;
 }
@@ -37,7 +37,7 @@
     width: 0 !important;
     padding-left: 33px;
     padding-top: 33px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message2.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/message2.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--secondary-bg-color) !important;
 }
@@ -46,7 +46,7 @@
     width: 0 !important;
     padding-left: 33px;
     padding-top: 33px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message1.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/message1.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--secondary-bg-color) !important;
 }
@@ -55,7 +55,7 @@
     width: 0 !important;
     padding-left: 33px;
     padding-top: 33px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/message2.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/message2.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--secondary-bg-color) !important;
 }
@@ -64,7 +64,7 @@
     height: 0;
     padding-left: 24px;
     padding-top: 24px;  
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/icons/message.png") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/icons/message.png") !important;
     background-repeat: no-repeat !important;
 }
 #header.right.new-message.mobile:hover {
@@ -72,117 +72,63 @@
     height: 0;
     padding-left: 24px;
     padding-top: 24px;  
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/icons/message-hover.png") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/icons/message-hover.png") !important;
     background-repeat: no-repeat !important;
 }
 /* Menu Icons */
 #menu-scroll-container .main-menu-container > ul > li.activity > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/activity.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/activity.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.evaluation > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/assessment.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/assessment.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.attendance > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/attendance.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/attendance.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.consents > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/consent.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/consent.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.discussions > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/discussions.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/discussions.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.exams > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/exams.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/exams.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.overview > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/home.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/home.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.assignments > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/homework.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/homework.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.courses > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/lessons.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/lessons.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.ads > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/link.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/link.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.materials > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/materials.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/materials.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.updates > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/messages.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/messages.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.payments > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/payments.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/payments.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.portfolios > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/portfolio.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/portfolio.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.lesson-plans > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/program.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/program.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.settings > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/settings.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/settings.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.achievements > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/star-stroke.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/star-stroke.svg") !important;
 }
 #menu-scroll-container .main-menu-container > ul > li.timetable-menu-item > a {
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/menu-icons/timetable.svg") !important;
-    background-repeat: no-repeat;
-    background-position: 46px center;
-    background-size: 16px;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/menu-icons/timetable.svg") !important;
 }
 /*Inbox Icons*/
 .icon.assignment {
@@ -190,7 +136,7 @@
     width: 0 !important;
     padding-left: 32px;
     padding-top: 32px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assignment.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
@@ -199,7 +145,7 @@
     width: 0 !important;
     padding-left: 32px;
     padding-top: 32px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/message.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
@@ -208,7 +154,7 @@
     width: 0 !important;
     padding-left: 32px;
     padding-top: 32px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assessment.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assessment.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
@@ -217,7 +163,7 @@
     width: 0 !important;
     padding-left: 32px;
     padding-top: 32px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/exam.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/exam.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
@@ -226,32 +172,32 @@
     width: 0 !important;
     padding-left: 32px;
     padding-top: 32px;
-    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/event.svg") !important;
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/event.svg") !important;
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
 #inbox-grid .icon.assignment {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assignment.svg") no-repeat center center !important;
     margin-top: 6px;
     margin-right: 8px;
 }
 #inbox-grid .icon.message {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/message.svg") no-repeat center center !important;
     margin-top: 6px;
     margin-right: 8px;
 }
 #inbox-grid .icon.evaluation {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assessment.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assessment.svg") no-repeat center center !important;
     margin-top: 6px;
     margin-right: 8px;
 }
 #inbox-grid .icon.exam {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/exam.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/exam.svg") no-repeat center center !important;
     margin-top: 6px;
     margin-right: 8px;
 }
 #inbox-grid .icon.event {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/event.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/event.svg") no-repeat center center !important;
     margin-top: 6px;
     margin-right: 8px;
 }
@@ -283,14 +229,14 @@ g.expand[fill="none"]:hover {
 USE IN THE UPDATES (SCHRÁNKA) PAGE
 ###############################################
 .item .icon.assignment {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/assignment.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assignment.svg") no-repeat center center !important;
     /*width: 32px !important;
     height: 32px !important;*/
     /*margin-top: 6px;
     margin-right: 8px;
 }
 .item .icon.message {
-    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDarkTheme/main/img-overrides/inbox-icons/message.svg") no-repeat center center !important;
+    background: transparent url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/message.svg") no-repeat center center !important;
     /*width: 32px !important;
     height: 32px !important;*/
     /*margin-top: 6px;
