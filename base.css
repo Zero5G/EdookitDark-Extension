@@ -22,25 +22,100 @@ Loading*/
 }
 /*###################################
 Main Page*/
-/*New post - BG*/
-.new .widget .box {
+/*Posts*/
+.new .widget .box /*Background*/{
     background-color: var(--secondary-bg-color) !important;
 }
-/*New post - Border*/
-.new .widget .box {
+.new .widget .box /*Hide border*/ {
     border-color: transparent !important;
 }
-/*Evaluation - Border*/
+.new .widget .box .grid .item-container .item:hover /*Hover*/ {
+    border-radius: 6px !important;
+    background-color: var(--primary-highlight-color) !important;
+}
+.new .grid-links a:hover, .new .grid-links div:hover /*Hover 2*/ {
+    border-radius: 6px !important;
+    background-color: var(--primary-highlight-color) !important;
+}
+.unstar.unstar_icon:hover /*Unpin icon (yes unpin = unstar [U+1F926])*/ {
+    background-color: var(--primary-highlight-color) !important;
+}
+.read-icon:hover /*Mark as read*/ {
+    background-color: var(--primary-highlight-color) !important;
+}
+
+/*Evaluations*/
 .new .evaluation-widget-container .evaluations {
     border-color: transparent !important;
 }
-/*Achievements - BG*/
-.new .achievements-widget-container .achievements {
+.new .evaluation-widget-container .evaluations .list .item {
+    color: var(--primary-text-color) !important;
+}
+.new .evaluation-widget-container .evaluations .list .item:hover /*Hover over*/ {
+    background-color: var(--primary-highlight-color) !important;
+    border-radius: 4px;
+}
+
+/*Achievements*/
+.new .achievements-widget-container .achievements /*Background*/ {
     background-color: var(--secondary-bg-color) !important;
 }
-/*Achievements - Border*/
-.new .achievements-widget-container .achievements {
+.new .achievements-widget-container .achievements /*Border*/ {
     border-color: transparent !important;
+}
+.new .achievement-container .achievement:hover /*Hover*/ {
+    background-color: #1a1a1a !important;
+}
+
+/*Time table*/
+#prints-timetable .period-time {
+    background-color: var(--secondary-bg-color) !important;
+}
+.defaultLesson.clickable-lesson {
+    background-color: var(--time-table-classes-bg-color) !important;
+    color: var(--primary-text-color) !important;
+}
+.hoverLesson {
+    /*border-width: 3px !important;*/
+    border-color: #aaaaaa !important;
+	background-color: #424242 !important;
+}
+.hideInPrint[style*="background-color:#f29526;"] /*Current lesson*/ {
+    background-color: var(--secondary-highlight-color) !important;
+}
+a[style*="border: 1px solid rgb(234, 132, 0);"] /*Border of a changed(substitute teacher ect.) lesson*/ {
+    border: 1px solid var(--secondary-highlight-color) !important;
+}
+a[style*="border: 1px solid #ea8400;"] /*It changes from rgb to hex when you hover over it*/ {
+    border: 1px solid var(--secondary-highlight-color) !important;
+}
+span[style="color: #ea8400;"] /*Substitute teacher, changed lesson ect.*/ {
+    color: var(--secondary-highlight-color) !important;
+}
+div.normalTextPrint[style*="color:#f29526"] /*Current day*/ {
+    color: var(--secondary-highlight-color) !important;
+}
+/*Holidays/school events*/
+a[style*="background-color: rgb(238, 218, 249);"] /*Background*/ {
+    background-color: #094074 !important;
+}
+a[style*="background-color: #eedaf9;"] /*It changes from rgb to hex when you hover over it*/ {
+    background-color: #094074 !important;
+}
+div.row b /*Font color*/ {
+    color: var(--secondary-text-color) !important;
+}
+/*Classroom Service*/
+.classroom-service {
+    color: var(--secondary-text-color) !important;
+    background-color: var(--secondary-bg-color) !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+/*###################################
+Font (#333333)*/
+.new {
+    color: var(--primary-text-color) !important;
 }
 /*###################################
 Background (replaced color: f8fafa)*/
@@ -88,7 +163,17 @@ Evaluations*/
 .old .cssHack-box .table_row {
     background-color: var(--secondary-bg-color) !important; 
 }
-
+/*###################################
+Left side panel*/
+#menu-scroll-container .main-menu-container ul a {
+    color: var(--secondary-text-color) !important;
+}
+#menu-scroll-container .organization-name-container a, 
+#menu-scroll-container .organization-name-container a:hover, 
+#menu-scroll-container .organization-name-container a:visited, 
+#menu-scroll-container .organization-name-container a:active {
+    color: var(--secondary-text-color) !important;
+}
 
 
 
@@ -98,7 +183,7 @@ TESTING
 /*.system-logo {
 	height: 0 !important;
 	width: 0 !important;
-	/* these numbers match the new image's dimensions *//*
+	/* these numbers match the new image's dimensions: *//*
 	padding-left: 100px !important;
 	padding-top: 30px !important;
     background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/logo.png") !important;

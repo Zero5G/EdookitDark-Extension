@@ -12,24 +12,6 @@ Random stuff - mainly weird selectors*/
     background-repeat: no-repeat !important;
     background-color: var(--tertiary-bg-color) !important;
 }
-/*Font*/
-span[style="color: #ea8400;"] {
-    color: var(--secondary-highlight-color) !important;
-}
-div.normalTextPrint[style*="color:#f29526"] {
-    color: var(--secondary-highlight-color) !important;
-}
-/*Border*/
-a[style*="border: 1px solid rgb(234, 132, 0);"] {
-    border: 1px solid var(--secondary-highlight-color) !important;
-}
-a[style*="border: 1px solid #ea8400;"] {
-    border: 1px solid var(--secondary-highlight-color) !important;
-}
-/*Random lines*/
-.hideInPrint[style*="background-color:#f29526;"] {
-    background-color: var(--secondary-highlight-color) !important;
-}
 /*Year switcher*/
 div#term-selected g.expand {
     fill: var(--secondary-text-color) !important;
@@ -87,18 +69,10 @@ div#term-selected svg:hover {
     color: #cccccc !important;
 }
 /*Weird backgrounds*/
+/* IDK WHAT THIS DOES
 .type {
     background-color: var(--tertiary-bg-color) !important;
-}
-a[style*="background-color: rgb(238, 218, 249);"] {
-    background-color: #094074 !important;
-}
-a[style*="background-color: #eedaf9;"] {
-    background-color: #094074 !important;
-}
-div.row b {
-    color: var(--secondary-text-color) !important;
-}
+}*/
 /*New evaluation*/
 .new .evaluation-widget-container .evaluations .list .item .course.unread {
     color: var(--secondary-highlight-color) !important;
@@ -199,9 +173,6 @@ div#content h2 {
 }
 /*###################################
 Hover*/
-.read-icon:hover {
-    background-color: var(--primary-highlight-color) !important;
-}
 .new .grid-container .href-item .item:hover {
     border-radius: 6px !important;
     background-color: var(--primary-highlight-color) !important;
@@ -212,15 +183,6 @@ Hover*/
     background-color: var(--primary-highlight-color) !important;
 }
 .new .grid-link:hover {
-    border-radius: 6px !important;
-    background-color: var(--primary-highlight-color) !important;
-}
-.new .grid-links a:hover,
-.new .grid-links div:hover {
-    border-radius: 6px !important;
-    background-color: var(--primary-highlight-color) !important;
-}
-.new .widget .box .grid .item-container .item:hover {
     border-radius: 6px !important;
     background-color: var(--primary-highlight-color) !important;
 }
@@ -239,9 +201,6 @@ Hover*/
 .all-read:hover {
     color: var(--primary-text-color) !important;;
     background-color: var(--tertiary-bg-color) !important;
-}
-.unstar.unstar_icon:hover {
-    background-color: var(--primary-highlight-color) !important;
 }
 .edookit-link:hover {
     color: var(--secondary-text-color) !important;
@@ -275,11 +234,6 @@ a.input-simulation.secondary:hover {
 /*.new-message:hover {
     background-color:  !important;
 }*/
-/*###################################
-Achievements*/
-.new .achievement-container .achievement:hover {
-    background-color: #1a1a1a !important;
-}
 /*###################################
 Time Table - Other (Main page)*/
 .period-time {
