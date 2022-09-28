@@ -12,7 +12,7 @@
 Loading*/
 .loading-notification {
     color: var(--secondary-text-color);
-    background: var(--tertiary-bg-color) url("https://raw.githubusercontent.com/Zero5G/EDTExtensionChrome/main/loading.gif") no-repeat 15px 15px !important;
+    background: var(--tertiary-bg-color) url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/loading.gif") no-repeat 15px 15px !important;
     /*box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.1);
