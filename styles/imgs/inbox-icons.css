@@ -1,0 +1,18 @@
+.new .main-widgets .widget .box .grid .item-container .item div.icon {
+    background-color: var(--background-color-4);
+}
+.new .widget .box .grid .item-container .item div.icon.assignment /* Assignment Icon */ {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assignment.svg");
+}
+.new .widget .box .grid .item-container .item div.icon.message /* Message Icon */ {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/message.svg");
+}
+.new .widget .box .grid .item-container .item div.icon.evaluation /* Evaluation Icon */ {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/assessment.svg")
+}
+.new .widget .box .grid .item-container .item div.icon.exam /* Exam Icon */ {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/exam.svg");
+}
+.new .widget .box .grid .item-container .item div.icon.event /* Event Icon */ {
+    background-image: url("https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/inbox-icons/event.svg");
+}

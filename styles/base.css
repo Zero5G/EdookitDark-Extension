@@ -1,0 +1,98 @@
+:root {
+    --background-color-1: #181818;
+    --background-color-2: #202020;
+    --background-color-3: #424242;
+    --background-color-4: #111111;
+    --background-color-5: #007a9c;
+    --background-color-6: #0c0c0c;
+    --text-color-1: #cccccc;
+    --text-color-2: #dedede;
+    --text-color-3: #ffffff;
+    --border-color-1: #383838;
+    --border-color-2: #f3f3f3;
+    /*--border-color-3: #1f1f1f;*/
+    --background-highlight-color-1: #1f1f1f;
+    --text-highlight-color-1:#1f8bc9;
+    --text-highlight-color-2:#787878;
+    --border-highlight-color-1: #1f8bc9;
+}
+/*###################################
+Loading*/
+#loading.loading-notification {
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/loading.gif);
+    background-color: var(--background-color-4);
+    font-weight: 350;
+}
+/*###################################
+Search*/
+#header .right .searchBarContainer div.searchBar input {
+    background-color: var(--background-color-1);
+    color: var(--text-color-1);
+}
+div#searchIconHeader path {
+    fill: var(--text-color-1);
+}
+/*###################################
+Message*/
+#header .right a.new-message {
+    background-color: var(--background-color-1);
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/icons/message.svg);
+}
+#header .right a.new-message:hover {
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/icons/message-hover.svg);
+}
+/*###################################
+User*/
+div#header .right .avatar {
+    background-color: var(--background-color-1);
+    color: var(--text-color-1);
+}
+div#header .right .avatar:hover {
+    color: var(--text-highlight-color-2);
+}
+div#header.scrolled {
+    background-color: var(--background-color-2);
+    border-color: var(--border-color-1);
+}
+/*###################################
+Other */
+div.new {
+    color: var(--text-color-1);
+}
+body#top {
+    color: var(--text-color-3);
+}
+a#scroll-to-top /*Scroll to top button (arrow)*/ {
+    background-color: var(--background-color-4);
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/arrows/dropdown.svg);
+}
+/*###################################
+Left side bar*/
+div#menu-scroll-container /*New (1,0,1) | Old (1, 0, 0)*/ {
+    background-color: var(--background-color-1);
+}
+div#menu-scroll-container /*New (1,0,1) | Old (1, 0, 0)*/ {
+    background-color: var(--background-color-1);
+}
+ul.submenu > li > a > span.link-text /*New (0, 2, 4) */,
+ul.main-iconed-menu > li > a > span.link-text {
+    color: var(--text-color-2);
+}
+ul.submenu > li > a:hover > span.link-text,
+ul.main-iconed-menu > li > a:hover > span.link-text {
+    color: var(--text-color-3);
+}
+#menu-scroll-container .organization-name-container a:visited .organization-name-text,
+#menu-scroll-container .organization-name-container a .organization-name-text /* School name */ {
+    color: var(--text-color-2);
+}
+div.edookit-logo-container.desktop a img.system-logo /*Scroll to top button (arrow)*/ {
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/logo_new.png);
+    background-repeat: no-repeat;
+    /*This little trick sets the <img> size to 0 and
+    adds padding with the dimensions of the image you want there instead */
+    height: 0;
+	width: 0;
+	padding-left: 100px; /* Your Image Width */
+	padding-top: 30px; /* Your Image Height */
+}

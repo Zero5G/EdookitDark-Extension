@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch with Chrome Extension",
+            "type": "chrome",
+            "request": "launch",
+            "url": "https://spsjed.edookit.net/",
+            "runtimeArgs": ["--load-extension=${workspaceFolder}"]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+/* Background
+*/
+div.new, body#top {
+    background-color: var(--background-color-2);
+}
+/* What's New & Requires Action
+*/
+.new .widget .box .grid .item-container .item .name /* Text */ {
+    color: var(--text-color-2) !important; /*Edookit used it*/
+}
+.new .widget .box .grid .item-container a.item:hover /* Item Hover */ {
+    background-color: var(--background-highlight-color-1);
+}
+.new .widget .box .grid div.divider /*Divider line */ {
+    background-color: var(--border-color-1);
+}
+div.new .widget .box /* Box text & Background */ {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
+div.new .box-heading /* Heading */ {
+    color: var(--text-color-2) !important; /*Edookit used it*/
+}
+.new div.grid-links a:hover, .new div.grid-links div:hover /* Grid Links (Buttons) Hover */ {
+    background-color: var(--background-highlight-color-1);
+    border-radius: 6px;
+}
+.new .main-widgets .whats-new-container .whats-new a.read.read-icon:hover /* Read Icon Hover */ {
+    background-color: var(--background-highlight-color-1);
+}
+.new .widget .box .grid .item-container a.unstar.unstar_icon:hover /* Unstar Icon */ {
+    background-color: var(--background-highlight-color-1);
+}
+/* Evaluation
+*/
+.new div.evaluation-widget-container .evaluations /* Background */ {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
+.new .evaluation-widget-container .evaluations .list a.item /* Course Title */ {
+    color: var(--text-color-2);
+}
+.new .evaluation-widget-container .evaluations .list a.item:hover /* Item Hover */ {
+    background-color: var(--background-highlight-color-1);
+    border-radius: 6px;
+}
+.new .evaluation-widget-container .evaluations .list a.item:active /* Item Hover */ {
+    background-color: var(--background-highlight-color-1);
+    border-radius: 6px;
+}
+.new .evaluation-widget-container .evaluations .list a.item .course.unread /* Course Unread Title */ {
+    color: var(--text-highlight-color-1);
+}
+.new .evaluation-widget-container .evaluations .list a.item .date.unread /* Date Unread */ {
+    color: var(--text-highlight-color-1);
+}
+.new .evaluation-widget-container .evaluations .list a.item .mark .unread .bubble /* Mark Unread */ {
+    background-color: var(--text-highlight-color-1);
+}
+.new .evaluation-widget-container div.trends-widget-container /* Trends in evaluation */ {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
+/* Timetable
+*/
+.new div.timetable-widget-container {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
+.new div.timetable-widget-container div.period-time /* Period time */ {
+    background-color: var(--background-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+.lesson.event.clickable-lesson.after-deadline /* Event */ {
+    background-color: var(--background-color-5) !important;
+    border-color: var(--border-color-2) !important;
+/* The elements above have it's own style (element.style) so I have to use !important */
+}
+.lesson.event.clickable-lesson.after-deadline b /* Event text */ {
+    color: var(--text-color-3);
+}
+div.lessons-content > div.lessonsBox > div > a {
+    background-color: var(--background-color-4) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+div.lessons-content > div.lessonsBox > div > a[style*="border: 1px solid rgb(234, 132, 0);"],
+div.lessons-content > div.lessonsBox > div > a[style*="border: 1px solid #ea8400;"] /* Changed lesson border */ {
+    border-color: var(--border-highlight-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+div.lessons-content > div.lessonsBox > div > a > div > div.lessonRow > span[style*="color: #ea8400;"] /* Changed lesson text */ {
+    color: var(--text-highlight-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+a > div > div.lessonRow > span.fontsize > span[style*="color: #ea8400;"] > b /* Cancelled lesson text */ {
+    color: var(--text-highlight-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+div.lessonsBox div.hoverLesson {
+    background-color: var(--background-color-6) !important;
+    border-color: var(--border-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+div.hoverLesson > div > span[style*="color: #ea8400;"] /*Changed info. about the lesson*/ {
+    color: var(--text-highlight-color-1) !important;
+    /* This element has it's own style (element.style) so I have to use !important */
+}
+div.mfp-inner-content > div.lesson-info /* More lesson info background */,
+h3.timetable-heading.attendance-heading /* Weird l. i. b. */,
+div.timetable-heading.attendance-heading /* Weird l. i. b. */{
+    background-color: var(--background-color-4);
+}
+.mfp-close-btn-in button.mfp-close {
+    color: var(--border-color-2);
+}
+/* Achievements
+*/
+.new .achievements-widget-container div.achievements /* Background, Text */ {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
+.new .achievement-container div.achievement:hover /* Achievement Hover */ {
+    background-color: var(--background-highlight-color-1);
+    border-radius: 6px;
+}
+div.modal-window.modal-window-achievement.achievement-info /* Achievement Info () */ {
+    background-color: var(--background-color-1);
+    border-color: var(--border-color-1);
+}
