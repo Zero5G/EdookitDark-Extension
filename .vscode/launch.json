@@ -2,6 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch with Firefox Extension",
+            "type": "firefox",
+            "profile": "default",
+            "addonPath": "${workspaceFolder}",
+            "request": "launch",
+            "url": "https://spsjed.edookit.net/"
+        },
+        {
             "name": "Launch with Chrome Extension",
             "type": "chrome",
             "request": "launch",
