@@ -113,6 +113,12 @@ div.timetable-heading.attendance-heading /* Weird l. i. b. */{
 .mfp-close-btn-in button.mfp-close {
     color: var(--border-color-2);
 }
+div.hideInPrint /* Current time/lesson */ {
+    background-color: var(--background-color-7) !important;
+}
+div.normalTextPrint[style*="color:#f29526"] /*Current Day*/ {
+    color: var(--text-highlight-color-1) !important;
+}
 /* Achievements
 */
 .new .achievements-widget-container div.achievements /* Background, Text */ {
