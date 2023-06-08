@@ -55,6 +55,28 @@ div#header.scrolled {
     background-color: var(--background-color-2);
     border-color: var(--border-color-1);
 }
+#header #profileMenu.profileMenu /* Profile menu */ {
+    background-color: var(--background-color-4);
+}
+#header #profileMenu.profileMenu .menu li a {
+    color: var(--text-color-2);
+}
+#header #profileMenu.profileMenu .menu li a:hover {
+    background-color: var(--background-highlight-color-1) !important;
+}
+#header #profileMenu.profileMenu .avatar {
+    background-color: var(--background-color-1);
+    color: var(--text-color-1);
+}
+#header .right div.avatar.profile-close {
+    background-color: var(--background-color-1);
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/arrows/cancel-black.svg);
+}
+#header .right div.avatar.profile-close:hover {
+    background-image: url(https://raw.githubusercontent.com/Zero5G/EdookitDark-Storage/main/images/arrows/cancel-black-hover.svg);
+    background-color: var(--background-color-1);
+    color: transparent;
+}
 /*###################################
 Other */
 div.new {
